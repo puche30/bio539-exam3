@@ -12,3 +12,6 @@ for name in "Amy" "Jo" "Meg" "Beth" #loop through each name
 do
 	echo "$name" "$(grep -o -i $name $1 |wc -l)" #search for each occurance and count
 done
+
+#this is for github pratice for class
+ls
